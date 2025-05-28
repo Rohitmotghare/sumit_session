@@ -6,7 +6,7 @@ import React from 'react';
 function Expenses(props){
     return(
         <Card className="expenses">
-            <h2>Let's get Started!</h2>
+            <h2>Let's get add expense</h2>
 
             {
                 props.item.map(
